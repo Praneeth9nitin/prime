@@ -3,10 +3,24 @@
 
 
 @theme{
-  --color-card:#f27a1a
+  --color-card:#f27a1a;
+  --color-gray:#2f2f2f;
+  --color-lgray:#ecece9
 }
 
 .main{
   background:url('./assets/image 4.png') center no-repeat;
   height: 70vh;
+}
+
+.house{
+  opacity: 0;
+  transform: translateY(-2%);
+  transition: all 0.5s ease-in-out;
+}
+
+.house:hover{
+  opacity: 1;
+  transform: translateX(0);
+  backdrop-filter: blur(10px);
 }

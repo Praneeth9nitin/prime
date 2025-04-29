@@ -13,7 +13,7 @@ function Nav() {
   return (
     <div className='flex items-center justify-between md:m-10 md:mb-6 mt-6 mx-4'>
         <img src={logo} alt="" className='md:w-40 w-24' />
-        <ul className='md:flex justify-between gap-10 hidden' >
+        <ul className='md:flex justify-between md:gap-10 hidden' >
             <li className='flex items-center gap-1 cursor-pointer' onMouseEnter={()=>setCurrent("Loan")} onMouseLeave={()=>setCurrent("")} ><div><span>Loan Options</span>{current==="Loan"?<Dropdown nav={loanOption} className="text-center absolute text-sm" innerClassname='hover:bg-card' /> :"" }</div> <img className='w-3' src={arrow} alt="" /> </li>
             <li className='flex items-center gap-1 cursor-pointer' onMouseEnter={()=>setCurrent("about")} onMouseLeave={()=>setCurrent("")}><div><span>About</span>{current==="about"?<Dropdown nav={about} className="text-xs absolute p-3" /> :"" }</div> <img className='w-3' src={arrow} alt="" /> </li>
             <li className='cursor-pointer' > Calculator </li>
@@ -24,7 +24,7 @@ function Nav() {
             toggle?
             <div className='md:hidden'>
               <img src={cross} onClick={()=>setToggle(prop=>!prop)} alt="" />
-              <ul className='absolute right-2 flex flex-col gap-1 bg-linear-to-br from-card to-white p-4 text-white rounded-xl' >
+              <ul className='absolute z-10 text-gray right-2 flex flex-col gap-1 bg-linear-to-br from-card to-white p-4 rounded-xl' >
               <li>Loan Options</li>
               <li>About</li>
               <li>Calculator</li>

@@ -28,8 +28,8 @@ useGSAP(()=>{
             <div className="text-5xl head">Realize Your Dream of Home Ownership</div>
             <div className="head md:text-lg text-gray-400 ">Welcome to Lion Lending Services! We are your home loan experts,licensed in NC, SC, VA, FL and MD, and dedicated to making sure your purchase or refinance experience is top-notch.</div>
             <div className="flex gap-4 button">
-                <button className="bg-gray-500/30 rounded-md p-2 px-6 cursor-pointer">Contact Us Today!</button>
-                <button className="bg-card p-2 px-6 rounded-md cursor-pointer" >Apply Now</button>
+                <button className="bg-gray-500/30 rounded-md p-1 px-3 md:p-2 md:px-6 cursor-pointer">Contact Us Today!</button>
+                <button className="bg-card p-1 px-3 md:p-2 md:px-6 rounded-md cursor-pointer" >Apply Now</button>
             </div>
         </div>
        </div>
