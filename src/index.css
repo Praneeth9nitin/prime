@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+@theme{
+  --color-card:#C10013
+}
+
+.main{
+  background:url('./assets/image 4.png') center no-repeat;
+  height: 70vh;
+}
