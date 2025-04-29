@@ -6,9 +6,8 @@ import { useGSAP } from "@gsap/react"
 function HeroCard() {
   useGSAP(()=>{
     gsap.from(".card",{
-      y:-100,
+      x:-100,
       opacity:0,
-      rotation:45,
       duration:2,
       stagger:0.5,
       ease:"power2.out",
