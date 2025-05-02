@@ -2,7 +2,7 @@
 export default function contact() {
   return (
     <div className="min-h-screen bg-white p-8 md:p-16 font-sans">
-      <h1 className="text-4xl font-bold text-center mb-10">Get a <span className="text-card">Quote</span></h1>
+      <h1 className="text-4xl font-bold text-center mb-10">Contact <span className="text-card">Us</span></h1>
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         {/* Form Section */}
         <div className="space-y-4">
@@ -23,7 +23,7 @@ export default function contact() {
             </label>
           </div>
 
-          <button className="bg-card text-white py-3 px-6 rounded w-full mt-4 hover:bg-blue-800">
+          <button className="bg-card text-white py-3 px-6 rounded w-full mt-4 hover:scale-105">
             Send Message
           </button>
         </div>

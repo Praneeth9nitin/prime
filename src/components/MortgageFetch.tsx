@@ -3,7 +3,7 @@ import arrow from '../assets/arrow.svg'
 
 function MortgageFetch() {
   return (
-    <div className="md:flex text-center md:justify-evenly overflow-scroll">
+    <div className="md:flex text-center md:justify-evenly">
     {loanOption.map((item,index)=>
       <div key={index}>
         <div className="text-2xl font-bold">{item.title}</div>

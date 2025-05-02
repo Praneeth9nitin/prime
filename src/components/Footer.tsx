@@ -7,8 +7,8 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-card text-white px-6 py-10">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+    <footer className="bg-card text-white px-14 py-10 gap-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* Company */}
         <div>
           <h3 className="font-bold underline mb-2">Company</h3>
@@ -58,14 +58,14 @@ const Footer: React.FC = () => {
             </p>
             <p className="flex items-center gap-2">
               <FaEnvelope className="text-lg" /> 
-              <a href="mailto:info@primeinsurancellc.com" className="underline">info@primeinsurancellc.com</a>
+              <a href="mailto:info@primemortgagellc.com" className="underline">info@primemortgagellc.com</a>
             </p>
           </div>
         </div>
       </div>
 
       <div className="text-center text-gray-400 mt-10 text-xs">
-        © 2025 Prime Insurance. All Rights Reserved
+        © 2025 Prime Mortgage. All Rights Reserved
       </div>
     </footer>
   );
