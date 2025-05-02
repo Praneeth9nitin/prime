@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Hero from "./pages/Hero"
 import Nav from "./components/Nav"
+import About from "./pages/About"
+import Contactus from "./pages/Contactus"
 
 
 function App() {
