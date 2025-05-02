@@ -1,5 +1,4 @@
 import { useGSAP } from "@gsap/react"
-import HeroCard from "./HeroCard"
 import gsap from "gsap"
 
 function HeroComponent() {
