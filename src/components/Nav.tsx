@@ -19,7 +19,7 @@ function Nav() {
         </div>
         </div>
         <ul className='md:gap-10 md:p-5 p-2 md:text-lg text-sm flex justify-between md:justify-start bg-card' >
-            <li className='flex items-center gap-1 cursor-pointer' onMouseEnter={()=>setCurrent("Loan")} onMouseLeave={()=>setCurrent("")} ><span>Loan Options</span>{current==="Loan"?<Dropdown nav={loanOption} className="text-center absolute text-sm" innerClassname='hover:bg-card' /> :"" }<img className='w-3' src={arrow} alt="" /> </li>
+            <li className='flex items-center relative gap-1 cursor-pointer' onMouseEnter={()=>setCurrent("Loan")} onMouseLeave={()=>setCurrent("")} ><span>Loan Options</span>{current==="Loan"?<Dropdown nav={loanOption} className="text-center absolute top-7 text-sm" innerClassname='hover:bg-card' /> :"" }<img className='w-3' src={arrow} alt="" /> </li>
             <li className='flex items-center gap-1 cursor-pointer'>About</li>
             <li className='cursor-pointer' > Calculator </li>
             <li className='flex items-center gap-1 cursor-pointer'><span>Resources</span> <img className='w-3' src={arrow} alt="" /> </li>
