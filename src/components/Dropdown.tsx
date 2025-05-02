@@ -13,9 +13,9 @@ export function Dropdown({ nav, className, innerClassname }: {nav: DropdownProps
   const navigate = useNavigate();
 
   return (
-    <div  className={`flex flex-col items-center justify-center rounded-xl w-40 bg-linear-to-bl from-card to-white ${className} ` } >
+    <div  className={`flex flex-col items-center justify-center rounded-lg p-2 w-40 ${className} ` } >
       {nav.map((item, index) => (
-        <div onClick={()=>navigate(`${item.link}`)} className={`w-full rounded-lg cursor-pointer ${innerClassname}`} key={index} >{item.title}</div>
+        <div onClick={()=>navigate(`${item.link}`)} className={`w-full p-2 rounded-lg hover:text-slate-500 cursor-pointer ${innerClassname}`} key={index} >{item.title}</div>
       ))}
     </div>
   )
