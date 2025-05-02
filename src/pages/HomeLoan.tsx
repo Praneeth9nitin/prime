@@ -37,10 +37,10 @@ function HomeLoan() {
     })
 
   return (
-    <div className="md:mt-56 mt-96 md:p-7">
+    <div className="">
       <div className="text-center p-10">
         <div className=" text-card header text-xl font-extralight">POPULAR HOME LOANS</div>
-        <div className="text-3xl header font-extrabold" >Which loan is right for <span className="text-card">YOU</span> ? </div>
+        <div className="text-4xl header font-extrabold" >Which loan is right for <span className="text-card">YOU</span> ? </div>
       </div>
       <div className="md:flex grid grid-cols-1 p-4 justify-evenly">
         {loanOption.map((option, index)=>

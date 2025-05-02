@@ -1,11 +1,15 @@
+import HeroCard from "../components/HeroCard"
 import HeroComponent from "../components/HeroComponent"
-import Nav from "../components/Nav"
+import HomeLoan from "./HomeLoan"
+import Montage from "./Montage"
 
 function Hero() {
   return (
     <div>
-        <Nav />
         <HeroComponent />
+        <HeroCard />
+        <HomeLoan />
+        <Montage />
     </div>
   )
 }
