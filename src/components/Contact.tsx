@@ -1,18 +1,23 @@
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope
+} from 'react-icons/fa';
 
 export default function contact() {
   return (
-    <div className="min-h-screen bg-white p-8 md:p-16 font-sans">
+    <div className="min-h-screen md:w-4/6 md:m-2 bg-white p-8 md:p-16 font-josefin">
       <h1 className="text-4xl font-bold text-center mb-10">Contact <span className="text-card">Us</span></h1>
       <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
         {/* Form Section */}
         <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <input type="text" placeholder="First Name" className="border rounded p-3 w-full" />
-            <input type="text" placeholder="Last Name" className="border rounded p-3 w-full" />
+          <div className="grid grid-cols-2 gap-2">
+            <input type="text" placeholder="First Name" className="border rounded-md p-3 w-full outline-none" />
+            <input type="text" placeholder="Last Name" className="border rounded-md p-3 w-full outline-none" />
           </div>
-          <input type="email" placeholder="Email" className="border rounded p-3 w-full" />
-          <input type="tel" placeholder="Phone" className="border rounded p-3 w-full" />
-          <textarea placeholder="Comments" className="border rounded p-3 w-full h-32"></textarea>
+          <input type="email" placeholder="Email" className="border rounded-md p-3 w-full outline-none" />
+          <input type="tel" placeholder="Phone" className="border rounded-md p-3 w-full outline-none" />
+          <textarea placeholder="Comments" className="border rounded-md p-3 w-full h-32 outline-none"></textarea>
 
           <div className="flex items-start gap-2 text-sm">
             <input type="checkbox" id="smsConsent" className="mt-1" />
@@ -31,18 +36,18 @@ export default function contact() {
         {/* Contact Info Section */}
         <div className="space-y-6">
           <div>
-            <h2 className="text-xl font-semibold text-blue-900">Prime Mortgage Services</h2>
-            <p className="mt-2">3440 Toringdon Way, Suite 205<br />Office 254, Charlotte NC 28277</p>
+            <h2 className="text-2xl font-bold text-card">Prime Mortgage Services</h2>
+            <p className="mt-2 text-xl flex gap-2"> <FaMapMarkerAlt className="text-lg relative top-1.5" /><span>3440 Toringdon Way, Suite 205 Office 254, Charlotte NC 28277</span></p>
           </div>
 
           <div className="flex items-center space-x-2">
-            <span className="material-icons">phone</span>
-            <a href="tel:9802979827" className="text-blue-600">980-297-9827</a>
+            <span className="material-icons flex"><FaPhoneAlt className="text-lg" /></span>
+            <a href="tel:9802979827" className="text-xl">980-297-9827</a>
           </div>
 
           <div className="flex items-center space-x-2">
-            <span className="material-icons">email</span>
-            <a href="mailto:info@primemortgagellc.com" className="text-blue-600">info@primemortgagellc.com</a>
+            <span className="material-icons"><FaEnvelope className="text-lg" /></span>
+            <a href="mailto:info@primemortgagellc.com" className="text-xl">info@primemortgagellc.com</a>
           </div>
 
           <iframe

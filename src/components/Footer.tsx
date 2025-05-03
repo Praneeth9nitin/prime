@@ -4,10 +4,16 @@ import {
   FaPhoneAlt,
   FaEnvelope
 } from 'react-icons/fa';
+import logo from '../assets/footerlogo1.svg'
+import logo1 from '../assets/footerlogo2.svg'
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-card text-white px-14 py-10 gap-10">
+    <footer className="bg-card text-white md:px-48 px-14 py-3 gap-10">
+      <div className='flex gap-3 md:p-3 md:px-0'>
+        <img src={logo1} alt="" className='md:w-12 w-10' />
+        <img src={logo} alt="" className='md:w-32 w-28' />
+      </div>
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* Company */}
         <div>
@@ -26,7 +32,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Services */}
-        <div>
+        <div className='md:pl-10'>
           <h3 className="font-bold underline mb-2">Services</h3>
           <ul className="space-y-1">
           <li>Loan Options</li>
@@ -35,7 +41,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Contact */}
-        <div>
+        <div className='md:px-10'>
           <h3 className="font-bold underline mb-2">Contact Us</h3>
           <div className="mb-2">
             <iframe
@@ -64,7 +70,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-400 mt-10 text-xs">
+      <div className="text-center text-gray mt-10 text-xs">
         © 2025 Prime Mortgage. All Rights Reserved
       </div>
     </footer>

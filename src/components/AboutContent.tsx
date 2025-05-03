@@ -1,8 +1,8 @@
 
 const PrimeMortgageAbout = () => {
   return (
-    <div className="md:px-12 px-4 py-10 text-gray-800">
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+    <div className="md:px-36 px-4 pt-7 text-gray-800">
+      <h1 className="text-4xl font-bold text-card mb-6">
         About Prime Mortgage Services
       </h1>
 

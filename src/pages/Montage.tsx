@@ -2,10 +2,10 @@ import MortgageFetch from "../components/MortgageFetch"
 
 function Montage() {
   return (
-    <div className="montage">
+    <div className="montage md:px-36">
       <div className="text-center p-10" >
         <div className=" text-card header text-xl font-extralight">CURRENT</div>
-        <div className="text-4xl header font-extrabold">MONTAGE RATE</div>
+        <div className="text-4xl header font-extrabold">MORTGAGE <span className="text-card" >RATE</span></div>
       </div>
      <MortgageFetch />
      <div className="text-center md:px-36 py-10 text-xs md:text-sm p-3">

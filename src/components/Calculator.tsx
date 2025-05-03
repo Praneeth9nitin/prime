@@ -32,15 +32,15 @@ const MortgageCalculator: React.FC = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6 font-sans">
+    <div className="max-w-6xl mx-auto p-6">
       <h1 className="text-3xl font-bold text-center mb-6">MORTGAGE <span className='text-card'>CALCULATORS</span></h1>
 
-      <div className="flex justify-center md:gap-6 mb-4 overflow-x-scroll">
+      <div className="flex justify-center md:gap-6 mb-4 ">
         {tabs.map(tab => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`uppercase font-medium border-b-2 px-2 pb-1 ${
+            className={`uppercase font-medium border-b-2 px-2 md:text-lg text-sm pb-1 ${
               activeTab === tab ? 'border-card text-card' : 'border-transparent'
             }`}
           >
@@ -74,7 +74,7 @@ const MortgageCalculator: React.FC = () => {
                 id={name}
                 value={formData[name as keyof FormData]}
                 onChange={handleChange}
-                className="w-full border border-card rounded p-2"
+                className="w-full border outline-none border-card rounded p-2"
               />
             </div>
           ))}

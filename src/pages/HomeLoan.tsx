@@ -42,13 +42,13 @@ function HomeLoan() {
         <div className=" text-card header text-xl font-extralight">POPULAR HOME LOANS</div>
         <div className="text-4xl header font-extrabold" >Which loan is right for <span className="text-card">YOU</span> ? </div>
       </div>
-      <div className="md:flex grid grid-cols-1 p-4 justify-evenly">
+      <div className="md:flex grid grid-cols-1 p-4 md:px-36 justify-evenly">
         {loanOption.map((option, index)=>
-            <div key={index} className="relative img cursor-pointer m-2" >
+            <div key={index} className="relative img font-family cursor-pointer m-2" >
                 <img src={option.Image} alt="" />
-                <div className="absolute top-0 flex flex-col items-center justify-around h-full p-5 house text-center">
-                <div className="text-gray font-extrabold text-3xl md:text-5xl" >{option.title}</div>
-                <div className="text-lgray text-lg md:text-xl">{option.description}</div>
+                <div className="absolute top-0 flex flex-col items-center justify-around text-white h-full p-5 house text-center">
+                <div className="font-extrabold text-2xl" >{option.title}</div>
+                <div className="text-lg">{option.description}</div>
                 <img src={arrow} className="md:w-10 w-7 border-2 rounded-full border-white" alt="" />
                 </div>
             </div>

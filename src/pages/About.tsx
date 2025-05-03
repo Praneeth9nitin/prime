@@ -10,7 +10,9 @@ function About() {
       <Aboutbg />  
       <HeroCard/>
       <AboutContent />
+      <div className="flex items-center justify-center">
       <Contact />
+      </div>
       <Footer />
     </div>
   )
