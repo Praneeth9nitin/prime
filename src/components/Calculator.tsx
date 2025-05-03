@@ -88,7 +88,7 @@ const MortgageCalculator: React.FC = () => {
                 id="annualInsurance"
                 value={formData.annualInsurance}
                 onChange={handleChange}
-                className="w-full border border-card rounded p-2"
+                className="w-full border outline-none border-card rounded p-2"
               />
             </div>
             <div>
@@ -99,7 +99,7 @@ const MortgageCalculator: React.FC = () => {
                 id="monthlyHOA"
                 value={formData.monthlyHOA}
                 onChange={handleChange}
-                className="w-full border border-card rounded p-2"
+                className="w-full border outline-none border-card rounded p-2"
               />
             </div>
           </div>
@@ -142,7 +142,7 @@ const MortgageCalculator: React.FC = () => {
                 placeholder="Enter your email"
                 value={formData.email}
                 onChange={handleChange}
-                className="border border-card rounded p-2 w-full"
+                className="border border-card rounded p-2 outline-none w-full"
               />
               <button type="button" className="bg-card text-white px-4 rounded">Submit</button>
             </div>
