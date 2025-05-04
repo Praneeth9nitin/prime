@@ -2,8 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import {
   FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaEnvelope
+  FaPhoneAlt
 } from 'react-icons/fa';
 import logo from '../assets/footerlogo1.svg'
 import logo1 from '../assets/footerlogo2.svg'
