@@ -47,8 +47,8 @@ function HomeLoan() {
             <div key={index} className="relative img font-family cursor-pointer m-2" >
                 <img src={option.Image} className="rounded-md" alt="" />
                 <div className="absolute rounded-md top-0 flex flex-col items-center justify-around text-white h-full house text-center">
-                <div className="font-extrabold text-xl" >{option.title}</div>
-                <div className="text-sm">{option.description}</div>
+                <div className="font-extrabold md:text-xl text-3xl" >{option.title}</div>
+                <div className="md:text-sm">{option.description}</div>
                 <img src={arrow} className="w-7 border-2 rounded-full border-white" alt="" />
                 </div>
             </div>
