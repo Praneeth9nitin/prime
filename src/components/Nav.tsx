@@ -15,7 +15,7 @@ function Nav() {
 
   return (
     <div className=''>
-      <div className='flex items-center justify-between md:px-36 md:p-3'>
+      <div className='flex items-center justify-between pb-0 md:px-10 xl:px-36 md:p-3'>
         <div className='flex gap-3 p-3 md:p-0'>
         <img src={logo1} alt="" className='md:w-12 w-10' />
         <img src={logo} alt="" className='md:w-32 w-28' />
@@ -35,7 +35,7 @@ function Nav() {
         <button className='bg-card text-white p-2 rounded-md text-sm px-6 cursor-pointer hover:scale-105 transition-all '>Apply Online</button>
         </div>
         </div>
-        <ul className='gap-10 p-3 px-36 text-white text-lg md:flex hidden justify-start bg-card' >
+        <ul className='gap-10 p-3 md:px-10 xl:px-36 text-white text-lg md:flex hidden justify-start bg-card' >
             <li onClick={()=>navigate("/")} className='cursor-pointer hover:underline' >Home</li>
             <li onClick={()=>navigate("/about")} className='flex hover:underline items-center gap-1 cursor-pointer'>About</li>
             <li className='flex items-center relative gap-1 hover:underline cursor-pointer' onMouseEnter={()=>setCurrent((prop)=>!prop)} onMouseLeave={()=>setCurrent((prop)=>!prop)} ><span>Loan Options</span>{current?<Dropdown nav={loanOption} className="absolute top-7 z-10 text-sm bg-white text-gray" /> :"" }<img className='w-7' src={arrow} alt="" /> </li>

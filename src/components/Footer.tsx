@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import {
   FaMapMarkerAlt,
@@ -8,8 +9,9 @@ import logo from '../assets/footerlogo1.svg'
 import logo1 from '../assets/footerlogo2.svg'
 
 const Footer: React.FC = () => {
+  const navigete = useNavigate()
   return (
-    <footer className="bg-card text-white md:px-48 px-14 py-3 gap-10">
+    <footer className="bg-gray text-lgray md:px-48 px-14 py-3 gap-10">
       <div className='flex gap-3 md:p-3 md:px-0'>
         <img src={logo1} alt="" className='md:w-12 w-10' />
         <img src={logo} alt="" className='md:w-32 w-28' />
@@ -17,24 +19,24 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* Company */}
         <div>
-          <h3 className="font-bold underline mb-2">Company</h3>
-          <ul className="space-y-1">
-            <li>Home</li>
-            <li>About Us</li>
+          <h3 className="font-bold cursor-pointer underline mb-2">Company</h3>
+          <ul className="space-y-1 cursor-pointer">
+            <li onClick={()=>navigete("/")}>Home</li>
+            <li onClick={()=>navigete("/about")}>About Us</li>
             <li>Loan Options</li>
             <li>Mortgage Calculator</li>
-            <li>Contact Us</li>
-            <li>Terms and Conditions</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-            <li>SMS Policy</li>
+            <li onClick={()=>navigete("/contact")}>Contact Us</li>
+            <li onClick={()=>navigete("/terms-conditions")}>Terms and Conditions</li>
+            <li onClick={()=>navigete("/privacy-policy")}>Privacy Policy</li>
+            <li onClick={()=>navigete("/cookie-policy")}>Cookie Policy</li>
+            <li onClick={()=>navigete("/sms-policy")}>SMS Policy</li>
           </ul>
         </div>
 
         {/* Services */}
         <div className='md:pl-10'>
-          <h3 className="font-bold underline mb-2">Services</h3>
-          <ul className="space-y-1">
+          <h3 className="font-bold cursor-pointer underline mb-2">Services</h3>
+          <ul className="space-y-1 cursor-pointer">
           <li>Loan Options</li>
           <li>Mortgage Calculator</li>
           </ul>
@@ -70,7 +72,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray mt-10 text-xs">
+      <div className="text-center text-white mt-10 text-xs">
         © 2025 Prime Mortgage. All Rights Reserved
       </div>
     </footer>

@@ -6,7 +6,7 @@ function Contactus() {
   return (
     <div>
       <HeroComponent />
-      <div className="md:px-36 p-8 flex flex-col gap-6 font-josefin">
+      <div className="xl:px-36 p-8 flex flex-col gap-6 font-josefin">
         <div>
         <div className="md:text-4xl text-2xl font-bold">Contact Us</div>
         <div>Home Contact</div>

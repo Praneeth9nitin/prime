@@ -7,6 +7,8 @@ import house2 from "../assets/image 6.png"
 import house3 from "../assets/image 8.png"
 import facebook from "../assets/facebook.svg"
 import instagram from "../assets/insta.svg"
+import house4 from "../assets/download.jpg"
+import house5 from "../assets/house5.jpg"
 
 const loanOption = [
     {
@@ -23,6 +25,16 @@ const loanOption = [
         title: "VA Loans",
         description: "VA loans are available to veterans and active duty military members, offering favorable terms and no down payment.",
         Image: house2
+    },
+    {
+        title:"Refinance",
+        description:"Refinancing can potentially lower your monthly mortgage payment, pay off your mortgage faster.",
+        Image: house4
+    },
+    {
+        title:"Affordability",
+        description:"Affordability is being able to comfortably repay your mortgage repayments each month.",
+        Image:house5
     },
     
 ]
@@ -127,4 +139,6 @@ const socialMedia = [
     
 ]
 
-export {loanOption, about, cards, loanOptions, socialMedia}
+const title=["FHA Loans","Conventional Loans","VA Loans"]
+
+export {loanOption, about, cards, loanOptions, socialMedia, title}

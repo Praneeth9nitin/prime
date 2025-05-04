@@ -22,7 +22,7 @@ useGSAP(()=>{
 
   return (
     <div  className="main" >
-      <div className='h-full bg-linear-to-t from-black to-transparent grid grid-cols-2 p-5 md:px-36 md:p-8'>
+      <div className='h-full bg-linear-to-t from-black to-transparent grid grid-cols-2 p-5 md:px-10 xl:px-36 md:p-8'>
         <div className="text-white flex flex-col justify-evenly md:justify-around col-span-2 md:col-span-1" >
             <div className="md:text-5xl text-3xl font-semibold head">Realize Your Dream of Home Ownership</div>
             <div className="head md:text-lg text-gray-400 ">Welcome to Lion Lending Services! We are your home loan experts,licensed in NC, SC, VA, FL and MD, and dedicated to making sure your purchase or refinance experience is top-notch.</div>

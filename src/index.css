@@ -56,4 +56,5 @@ body{
 
 .montage {
   background: url('./assets/Group.svg') center no-repeat;
+  background-size: 700px;
 }
