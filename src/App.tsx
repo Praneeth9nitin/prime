@@ -7,6 +7,7 @@ import Terms from "./pages/Terms"
 import Privacypolicy from "./pages/Privacypolicy"
 import Cookie from "./pages/Cookie"
 import Smspolicy from "./pages/Smspolicy"
+import Mortgagepage from "./pages/Mortgagepage"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Routes >
       <Route path="/" element={<Hero/>} />
       <Route path="/about" element={<About/>} />
+      <Route path="/mortgage" element={<Mortgagepage />} />
       <Route path="/contact" element={<Contactus/>} />
       <Route path="/terms-conditions" element={<Terms/>} />
       <Route path="/privacy-policy" element={<Privacypolicy />}/>
