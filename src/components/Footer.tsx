@@ -7,6 +7,7 @@ import {
 } from 'react-icons/fa';
 import logo from '../assets/footerlogo1.svg'
 import logo1 from '../assets/footerlogo2.svg'
+import env from '../assets/envelop.svg'
 
 const Footer: React.FC = () => {
   const navigete = useNavigate()
@@ -58,14 +59,14 @@ const Footer: React.FC = () => {
           </div>
           <div className="space-y-2">
             <p className="flex items-start gap-2">
-              <FaMapMarkerAlt className="text-lg" /> 
+              <FaMapMarkerAlt className="text-lg w-10" /> 
               3440 Toringdon Way, Suite 205, Office 254, Charlotte NC 28277
             </p>
             <p className="flex items-center gap-2">
               <FaPhoneAlt className="text-lg" /> 9802979827
             </p>
             <p className="flex items-center gap-2">
-              <FaEnvelope className="text-lg" /> 
+              <img src={env} alt="" className='w-4' />
               <a href="mailto:info@primemortgagellc.com" className="underline">info@primemortgagellc.com</a>
             </p>
           </div>
