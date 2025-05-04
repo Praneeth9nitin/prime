@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <li onClick={()=>navigete("/")}>Home</li>
             <li onClick={()=>navigete("/about")}>About Us</li>
             <li>Loan Options</li>
-            <li>Mortgage Calculator</li>
+            <li onClick={()=>navigete("/mortgage-calculator")}>Mortgage Calculator</li>
             <li onClick={()=>navigete("/contact")}>Contact Us</li>
             <li onClick={()=>navigete("/terms-conditions")}>Terms and Conditions</li>
             <li onClick={()=>navigete("/privacy-policy")}>Privacy Policy</li>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
           <h3 className="font-bold cursor-pointer underline mb-2">Services</h3>
           <ul className="space-y-1 cursor-pointer">
           <li>Loan Options</li>
-          <li>Mortgage Calculator</li>
+          <li onClick={()=>navigete("/mortgage-calculator")}>Mortgage Calculator</li>
           </ul>
         </div>
 

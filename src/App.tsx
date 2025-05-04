@@ -18,7 +18,7 @@ function App() {
     <Routes >
       <Route path="/" element={<Hero/>} />
       <Route path="/about" element={<About/>} />
-      <Route path="/mortgage" element={<Mortgagepage />} />
+      <Route path="/mortgage-calculator" element={<Mortgagepage />} />
       <Route path="/contact" element={<Contactus/>} />
       <Route path="/terms-conditions" element={<Terms/>} />
       <Route path="/privacy-policy" element={<Privacypolicy />}/>

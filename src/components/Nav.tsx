@@ -39,7 +39,7 @@ function Nav() {
             <li onClick={()=>navigate("/")} className='cursor-pointer hover:underline' >Home</li>
             <li onClick={()=>navigate("/about")} className='flex hover:underline items-center gap-1 cursor-pointer'>About</li>
             <li className='flex items-center relative gap-1 hover:underline cursor-pointer' onMouseEnter={()=>setCurrent((prop)=>!prop)} onMouseLeave={()=>setCurrent((prop)=>!prop)} ><span>Loan Options</span>{current?<Dropdown nav={loanOption} className="absolute top-7 z-10 text-sm bg-white text-gray" /> :"" }<img className='w-7' src={arrow} alt="" /> </li>
-            <li className='cursor-pointer hover:underline' onClick={()=>navigate("/mortgage")} > Mortgage Calculator </li>
+            <li className='cursor-pointer hover:underline' onClick={()=>navigate("/mortgage-calculator")} > Mortgage Calculator </li>
             <li className='cursor-pointer hover:underline' onClick={()=>navigate('/contact')}>Contact</li>
         </ul>
         <ul className={`text-white bg-card md:hidden p-2 gap-3 flex flex-col ${toggle?"hidden":""}`}>
@@ -47,7 +47,7 @@ function Nav() {
           <li><span className='flex items-center relative justify-between' onClick={()=>setCurrent((prop)=>!prop)}> <span>Loan Options</span> <img src={arrow} className='w-8' alt="" /></span>
           {current?<Dropdown nav={loanOption} className="absolute z-10 text-sm bg-white text-gray" /> :"" }
           </li>
-          <li onClick={()=>navigate("/mortgage")}>Mortgage calculator</li>
+          <li onClick={()=>navigate("/mortgage-calculator")}>Mortgage calculator</li>
           <li onClick={()=>{navigate("/contact");setToggle((prop)=>!prop)}}>Contact Us</li>
         </ul>
     </div>
