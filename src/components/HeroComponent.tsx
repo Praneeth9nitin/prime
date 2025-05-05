@@ -22,8 +22,8 @@ useGSAP(()=>{
 
   return (
     <div  className="main" >
-      <div className='h-full bg-linear-to-t from-black to-transparent grid grid-cols-2 p-5 md:px-36 md:p-2'>
-        <div className="text-white flex flex-col justify-evenly md:justify-around col-span-2 md:col-span-1" >
+      <div className='h-full bg-linear-to-t from-black to-transparent grid grid-cols-2 p-5 md:px-10 xl:px-36 md:p-2'>
+        <div className="text-white flex flex-col justify-evenly md:justify-center md:gap-3 col-span-2 md:col-span-1" >
             <div className="md:text-4xl text-3xl font-semibold head">Make Homeownership Simple and Stress-Free</div>
             <div className="head md:text-sm text-gray-400 ">Welcome to Prime Mortgage Services—your reliable partner in home financing. Whether you're buying a new home or refinancing your current one, we're here to guide you with expert advice, flexible loan options, and a commitment to service that puts you first.</div>
             <div className="flex gap-4 button">

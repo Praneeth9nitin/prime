@@ -11,7 +11,7 @@ import env from '../assets/envelop.svg'
 const Footer: React.FC = () => {
   const navigete = useNavigate()
   return (
-    <footer className="bg-gray text-lgray md:px-48 px-14 py-3 gap-10">
+    <footer className="bg-gray text-lgray xl:px-48 px-14 py-3 gap-10">
       <div className='flex gap-3 md:p-3 md:px-0'>
         <img src={logo1} alt="" className='md:w-12 w-10' />
         <img src={logo} alt="" className='md:w-32 w-28' />

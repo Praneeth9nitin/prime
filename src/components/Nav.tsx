@@ -47,7 +47,7 @@ function Nav() {
           <li><span className='flex items-center relative justify-between' onClick={()=>setCurrent((prop)=>!prop)}> <span>Loan Options</span> <img src={arrow} className='w-8' alt="" /></span>
           {current?<Dropdown nav={loanOption} className="absolute z-10 text-sm bg-white text-gray" /> :"" }
           </li>
-          <li onClick={()=>navigate("/mortgage-calculator")}>Mortgage calculator</li>
+          <li onClick={()=>{navigate("/mortgage-calculator");setToggle((prop)=>!prop)}}>Mortgage calculator</li>
           <li onClick={()=>{navigate("/contact");setToggle((prop)=>!prop)}}>Contact Us</li>
         </ul>
     </div>
