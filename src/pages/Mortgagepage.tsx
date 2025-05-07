@@ -7,7 +7,7 @@ function Mortgagepage() {
   return (
     <div>
       <HeroComponent />
-      <HeroCard />
+      {/* <HeroCard /> */}
       <div className="my-7">
         <Calculator />
       </div>

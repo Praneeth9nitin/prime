@@ -19,7 +19,7 @@ function Contactdetails() {
 
         <div className="flex items-center space-x-2">
             <span className="material-icons"><FaEnvelope className="text-lg" /></span>
-            <a href="mailto:info@primemortgagellc.com" className="text-lg">info@primemortgagellc.com</a>
+            <a href="mailto:info@primemortgagellc.com" className="text-lg">info@primemtgs.com</a>
         </div>
 
         </div>

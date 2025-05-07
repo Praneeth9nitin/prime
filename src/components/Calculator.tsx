@@ -106,8 +106,8 @@ const MortgageCalculator: React.FC = () => {
         </form>
 
         {/* Output Section */}
-        <div className="space-y-6">
-          <div>
+        <div className="space-y-5">
+          <div className='flex items-center gap-2'>
             <p className="font-medium text-lg">Monthly Payment:</p>
             <p className="text-card text-3xl font-bold">$1,560</p>
           </div>

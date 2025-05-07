@@ -51,7 +51,7 @@ function Cookie() {
                             <h2 className="font-semibold mt-4">6. Updates to This Policy</h2>
                             <p>We may update this Cookie Policy periodically to reflect changes in technology, legal requirements, or business practices. Any updates will be posted on this page with the revised date. Continued use of our website after updates means you accept the changes.</p>
 
-                            <h2 className="font-semibold mt-4">For any questions, contact us at <a href="mailto:info@primeinsurancellc.com" className="text-blue-500 underline">info@primeinsurancellc.com</a>.</h2>
+                            <h2 className="font-semibold mt-4">For any questions, contact us at <a href="mailto:info@primemtgs.com" className="text-blue-500 underline">info@primemtgs.com</a>.</h2>
 
                         </div>
                     </div>

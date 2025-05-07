@@ -10,20 +10,20 @@ function Privacypolicy() {
                         <div className="text-xl text-gray-700 leading-relaxed font-opensans">
 
                             <h2 className="font-semibold mt-4">1. Introduction</h2>
-                            <p>At Prime Insurance Services LLC, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data.</p>
+                            <p>At Prime Mortgage Services LLC, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data.</p>
 
                             <h2 className="font-semibold mt-4">2. Information We Collect</h2>
                             <p>We may collect the following types of data:</p>
                             <ul className="list-disc ml-6">
-                                <li><strong>Personal Information:</strong> Name, email, phone number, address, and insurance details.</li>
+                                <li><strong>Personal Information:</strong> Name, email, phone number, address, and mortgage details.</li>
                                 <li><strong>Browsing Data:</strong> IP address, device information, and website usage patterns.</li>
                                 <li><strong>Communication Data:</strong> Information provided through customer support interactions.</li>
                             </ul>
 
                             <h2 className="font-semibold mt-4">3. How We Use Your Information</h2>
                             <ul className="list-disc ml-6">
-                                <li>To provide insurance quotes and policy recommendations.</li>
-                                <li>To communicate with you regarding your inquiries, claims, and policy updates.</li>
+                                <li>To provide mortgage quotes and loan recommendations.</li>
+                                <li>To communicate with you regarding your inquiries, applications, and updates.</li>
                                 <li>To improve our website functionality and user experience.</li>
                                 <li>To comply with legal and regulatory requirements.</li>
                             </ul>
@@ -34,7 +34,7 @@ function Privacypolicy() {
                             <h2 className="font-semibold mt-4">5. Third-Party Sharing</h2>
                             <p>We do not sell or rent your personal information. However, we may share your data with:</p>
                             <ul className="list-disc ml-6">
-                                <li>Insurance carriers for policy processing.</li>
+                                <li>Mortgage lenders for loan processing.</li>
                                 <li>Service providers assisting with IT, analytics, and customer support.</li>
                                 <li>Legal authorities if required by law.</li>
                             </ul>
@@ -69,9 +69,9 @@ function Privacypolicy() {
                             <p>We collect name, address, phone number, email, and Job Title when you opt-in to our SMS Messages.</p>
                             <p>We collect personal information and use it to provide you with our services.</p>
                             <p>We do not share your personal information with anyone without your explicit written consent.</p>
-                            <p>To view SMS Terms and Conditions, visit <a href="/termsandconditions" className="text-blue-500 underline">this link</a>.</p>
+                            <p>To view SMS Terms and Conditions, please refer to our <a href="/terms-conditions" className="text-blue-500 underline">Terms & Conditions</a>.</p>
 
-                            <h2 className="font-semibold mt-4">For more details, contact us at <a href="mailto:info@primeinsurancellc.com" className="text-blue-500 underline">info@primeinsurancellc.com</a>.</h2>
+                            <h2 className="font-semibold mt-4">For more details, contact us at <a href="mailto:info@primemtgs.com" className="text-blue-500 underline">info@primemtgs.com</a>.</h2>
 
                         </div>
                     </div>

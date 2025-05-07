@@ -11,25 +11,26 @@ import env from '../assets/envelop.svg'
 const Footer: React.FC = () => {
   const navigete = useNavigate()
   return (
-    <footer className="bg-gray text-lgray xl:px-48 px-14 py-3 gap-10">
-      <div className='flex gap-3 md:p-3 md:px-0'>
+    <footer className="bg-gray flex items-baseline flex-col text-lgray xl:px-48 px-14 py-3 gap-10">
+      <div className='max-w-7xl mx-auto'>
+      <div className='flex max-w-7xl gap-3 md:p-3 md:px-0 md:mb-5'>
         <img src={logo1} alt="" className='md:w-12 w-10' />
         <img src={logo} alt="" className='md:w-32 w-28' />
       </div>
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* Company */}
         <div>
           <h3 className="font-bold cursor-pointer underline mb-2">Company</h3>
-          <ul className="space-y-1 cursor-pointer">
-            <li onClick={()=>navigete("/")}>Home</li>
-            <li onClick={()=>navigete("/about")}>About Us</li>
-            <li>Loan Options</li>
-            <li onClick={()=>navigete("/mortgage-calculator")}>Mortgage Calculator</li>
-            <li onClick={()=>navigete("/contact")}>Contact Us</li>
-            <li onClick={()=>navigete("/terms-conditions")}>Terms and Conditions</li>
-            <li onClick={()=>navigete("/privacy-policy")}>Privacy Policy</li>
-            <li onClick={()=>navigete("/cookie-policy")}>Cookie Policy</li>
-            <li onClick={()=>navigete("/sms-policy")}>SMS Policy</li>
+          <ul className="space-y-1">
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/");window.scrollTo(0,0)}}>Home</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/about");window.scrollTo(0,0)}}>About Us</li>
+            <li className='hover:underline cursor-pointer'>Loan Options</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/mortgage-calculator");window.scrollTo(0,0)}}>Mortgage Calculator</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/contact");window.scrollTo(0,0)}}>Contact Us</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/terms-conditions");window.scrollTo(0,0)}}>Terms and Conditions</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/privacy-policy");window.scrollTo(0,0)}}>Privacy Policy</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/cookie-policy");window.scrollTo(0,0)}}>Cookie Policy</li>
+            <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/sms-policy");window.scrollTo(0,0)}}>SMS Policy</li>
           </ul>
         </div>
 
@@ -37,8 +38,8 @@ const Footer: React.FC = () => {
         <div className='md:pl-10'>
           <h3 className="font-bold cursor-pointer underline mb-2">Services</h3>
           <ul className="space-y-1 cursor-pointer">
-          <li>Loan Options</li>
-          <li onClick={()=>navigete("/mortgage-calculator")}>Mortgage Calculator</li>
+          <li className='hover:underline cursor-pointer'>Loan Options</li>
+          <li className='hover:underline cursor-pointer' onClick={()=>{navigete("/mortgage-calculator");window.scrollTo(0,0)}}>Mortgage Calculator</li>
           </ul>
         </div>
 
@@ -57,16 +58,16 @@ const Footer: React.FC = () => {
             />
           </div>
           <div className="space-y-2">
-            <p className="flex items-start gap-2">
+            <p className="flex items-start gap-2 hover:underline cursor-pointer">
               <FaMapMarkerAlt className="text-lg w-10" /> 
               3440 Toringdon Way, Suite 205, Office 254, Charlotte NC 28277
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 hover:underline cursor-pointer">
               <FaPhoneAlt className="text-lg" /> 9802979827
             </p>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 hover:underline cursor-pointer">
               <img src={env} alt="" className='w-4' />
-              <a href="mailto:info@primemortgagellc.com" className="underline">info@primemortgagellc.com</a>
+              <a href="mailto:info@primemortgagellc.com" className="underline">info@primemtgs.com</a>
             </p>
           </div>
         </div>
@@ -74,6 +75,7 @@ const Footer: React.FC = () => {
 
       <div className="text-center text-white mt-10 text-xs">
         © 2025 Prime Mortgage. All Rights Reserved
+      </div>
       </div>
     </footer>
   );

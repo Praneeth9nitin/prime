@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <Aboutbg />  
-      <HeroCard/>
+      {/* <HeroCard/> */}
       <AboutContent />
       <div className="flex items-center justify-center">
       <Contact />

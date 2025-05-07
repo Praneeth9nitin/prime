@@ -49,26 +49,26 @@ const about=[
 const cards=[
     {
         img:number,
-        title:"Explore Your Loan Options",
-        button:"LOAN OPTIONS",
+        title:"Discover the perfect loan tailored to your goals.",
+        button:"Whether you're a first-time homebuyer or refinancing, we offer flexible FHA, VA, and Conventional loans to match your needs and lifestyle.",
         link:"/home-loan",
     },
     {
         img:calculator,
-        title:"Estimate Your Montage Payment",
-        button:"GET STARTED",
+        title:"Know what to expect before you apply.",
+        button:"Use our simple mortgage calculator to get an instant estimate of your monthly payments—so you can plan with confidence.",
         link:"/calculator",
     },
     {
         img:home,
-        title:"What's Your Home Worth Today?",
-        button:"FIND OUT NOW",
+        title:"Find out your property’s current market value.",
+        button:"Get a free, real-time home valuation based on the latest housing trends and comparable local listings.",
         link:"/home-value",
     },
     {
         img:contact,
-        title:"Real Customer Experiences",
-        button:"READ REVIEWS",
+        title:"Hear from homeowners just like you.",
+        button:"Our clients love the support, simplicity, and results they get with Prime Mortgage. See their stories and reviews.",
         link:"/contact",
     }
 ]
