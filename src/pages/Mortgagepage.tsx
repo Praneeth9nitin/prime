@@ -1,4 +1,3 @@
-import HeroCard from "../components/HeroCard"
 import HeroComponent from "../components/HeroComponent"
 import Footer from "../components/Footer"
 import Calculator from "../components/Calculator"

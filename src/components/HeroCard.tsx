@@ -1,12 +1,9 @@
 import { cards } from "../content/content"
-import arrow from "../assets/arrow.svg"
 import gsap from "gsap"
-import { useNavigate } from "react-router-dom";
 import { useGSAP } from "@gsap/react"
 
 function HeroCard() {
 
-  const nav = useNavigate()
   useGSAP(()=>{
     gsap.from(".card",{
       z:100,
