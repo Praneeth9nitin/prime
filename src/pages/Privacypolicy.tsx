@@ -3,11 +3,10 @@ import Footer from "../components/Footer"
 function Privacypolicy() {
     return (
         <div>
-            <div className='bg-lgray p-1 py-4'>
-                <div className='xl:mx-28 bg-white'>
-                    <div className="container bg-white font-sans mx-auto mt-12 mb-12 px-4 md:px-8 lg:px-12 py-8">
+        <div className='bg-lgray p-1 py-10'>
+        <div className='xl:mx-28 md:p-10 p-4 bg-white'>
                         <h1 className="text-3xl md:text-4xl font-bold text-[#11193B] font-josefin text-center mb-6">Privacy Policy</h1>
-                        <div className="text-xl text-gray-700 leading-relaxed font-opensans">
+                        <div className="md:text-xl text-gray-700 leading-relaxed font-opensans">
 
                             <h2 className="font-semibold mt-4">1. Introduction</h2>
                             <p>At Prime Mortgage Services LLC, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data.</p>
@@ -77,7 +76,6 @@ function Privacypolicy() {
                     </div>
 
                 </div>
-            </div>
             <Footer />
         </div>
     )

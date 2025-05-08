@@ -3,11 +3,10 @@ import Footer from '../components/Footer'
 function Smspolicy() {
     return (
         <div>
-            <div className='bg-lgray p-1 py-4'>
-                <div className='xl:mx-28 bg-white'>
-                    <div className="container bg-white font-sans mx-auto mt-12 mb-12 px-4 md:px-8 lg:px-12 py-8">
+        <div className='bg-lgray p-1 py-10'>
+        <div className='xl:mx-28 md:p-10 p-4 bg-white'>
                         <h1 className="text-3xl md:text-4xl font-bold text-[#11193B] text-center mb-6">SMS Policy</h1>
-                        <div className="text-xl text-gray-700 leading-relaxed font-opensans">
+                        <div className="md:text-xl text-gray-700 leading-relaxed font-opensans">
 
                             <h2 className="font-semibold mt-4">SMS Consent Communication</h2>
                             <p>The information (Phone Numbers) obtained as part of the SMS consent process will not be shared with third parties for marketing purposes.</p>
@@ -65,7 +64,6 @@ function Smspolicy() {
                     </div>
 
                 </div>
-            </div>
             <Footer />
         </div>
     )

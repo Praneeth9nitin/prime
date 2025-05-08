@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         <img src={logo1} alt="" className='md:w-12 w-10' />
         <img src={logo} alt="" className='md:w-32 w-28' />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3">
         {/* Company */}
         <div>
           <h3 className="font-bold cursor-pointer underline mb-2">Company</h3>
@@ -48,9 +48,8 @@ const Footer: React.FC = () => {
           <h3 className="font-bold underline mb-2">Contact Us</h3>
           <div className="mb-2">
             <iframe
-              className="rounded-md"
+              className="rounded-md w-2/3 md:w-full"
               src="https://maps.google.com/maps?q=3440+Toringdon+Way,+Suite+205,+Office+254,+Charlotte+NC+28277&output=embed"
-              width="100%"
               height="120"
               allowFullScreen
               loading="lazy"
@@ -58,7 +57,7 @@ const Footer: React.FC = () => {
             />
           </div>
           <div className="space-y-2">
-            <p className="flex items-start gap-2 hover:underline cursor-pointer">
+            <p className="flex items-start text-sm w-2/3 md:w-full gap-2 hover:underline cursor-pointer">
               <FaMapMarkerAlt className="text-lg w-10" /> 
               3440 Toringdon Way, Suite 205, Office 254, Charlotte NC 28277
             </p>

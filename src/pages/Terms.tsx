@@ -4,9 +4,9 @@ function Terms() {
     return (
         <div>
         <div className='bg-lgray p-1 py-10'>
-        <div className='xl:mx-28 p-10 bg-white'>
-            <div className='font-josefin text-center font-bold text-4xl'>Terms & Conditions</div>
-            <div className="text-xl text-gray-700 leading-relaxed font-opensans">
+        <div className='xl:mx-28 md:p-10 p-4 bg-white'>
+            <div className='font-josefin text-center font-bold text-3xl'>Terms & Conditions</div>
+            <div className="md:text-xl text-gray-700 leading-relaxed font-opensans">
                 <h2 className="font-semibold mt-4">1. Introduction</h2>
                 <p>Welcome to Prime Mortgage Services LLC. By accessing and using our website, you agree to comply with the following Terms & Conditions. If you do not agree with any part of these terms, please do not use our services.</p>
 

@@ -40,7 +40,7 @@ const MortgageCalculator: React.FC = () => {
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`uppercase font-medium border-b-2 px-2 md:text-lg text-sm pb-1 ${
+            className={`uppercase font-medium border-b-2 px-2 md:text-lg text-xs pb-1 ${
               activeTab === tab ? 'border-card text-card' : 'border-transparent'
             }`}
           >
