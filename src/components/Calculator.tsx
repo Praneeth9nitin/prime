@@ -74,7 +74,7 @@ const MortgageCalculator: React.FC = () => {
                 id={name}
                 value={formData[name as keyof FormData]}
                 onChange={handleChange}
-                className="w-full border outline-none border-card rounded p-2"
+                className="w-full border outline-none border-gray rounded p-2"
               />
             </div>
           ))}
@@ -88,7 +88,7 @@ const MortgageCalculator: React.FC = () => {
                 id="annualInsurance"
                 value={formData.annualInsurance}
                 onChange={handleChange}
-                className="w-full border outline-none border-card rounded p-2"
+                className="w-full border outline-none border-gray rounded p-2"
               />
             </div>
             <div>
@@ -99,7 +99,7 @@ const MortgageCalculator: React.FC = () => {
                 id="monthlyHOA"
                 value={formData.monthlyHOA}
                 onChange={handleChange}
-                className="w-full border outline-none border-card rounded p-2"
+                className="w-full border outline-none border-gray rounded p-2"
               />
             </div>
           </div>
@@ -112,7 +112,7 @@ const MortgageCalculator: React.FC = () => {
             <p className="text-card text-3xl font-bold">$1,560</p>
           </div>
 
-          <div className="border border-card p-4 rounded-md">
+          <div className="border border-gray p-4 rounded-md">
             <p className="font-medium mb-2">Monthly Payment</p>
             <div className="h-48 bg-gray-100 flex items-center justify-center text-gray-500 text-sm">
               [Bar Chart Here]
@@ -142,7 +142,7 @@ const MortgageCalculator: React.FC = () => {
                 placeholder="Enter your email"
                 value={formData.email}
                 onChange={handleChange}
-                className="border border-card rounded p-2 outline-none w-full"
+                className="border border-gray rounded p-2 outline-none w-full"
               />
               <button type="button" className="bg-card text-white px-4 rounded">Submit</button>
             </div>

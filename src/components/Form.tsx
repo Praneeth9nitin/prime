@@ -5,12 +5,12 @@ function Form() {
     <div>
       <div className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
-            <input type="text" placeholder="First Name" className="border border-slate-400 rounded-md p-3 w-full outline-none" />
-            <input type="text" placeholder="Last Name" className="border border-slate-400 rounded-md p-3 w-full outline-none" />
+            <input type="text" placeholder="First Name" className="border border-black rounded-md p-3 w-full outline-none" />
+            <input type="text" placeholder="Last Name" className="border border-black rounded-md p-3 w-full outline-none" />
           </div>
-          <input type="email" placeholder="Email" className="border border-slate-400 rounded-md p-3 w-full outline-none" />
-          <input type="tel" placeholder="Phone" className="border border-slate-400 rounded-md p-3 w-full outline-none" />
-          <textarea placeholder="Comments" className="border border-slate-400 rounded-md p-3 w-full h-32 outline-none"></textarea>
+          <input type="email" placeholder="Email" className="border border-black rounded-md p-3 w-full outline-none" />
+          <input type="tel" placeholder="Phone" className="border border-black rounded-md p-3 w-full outline-none" />
+          <textarea placeholder="Comments" className="border border-black rounded-md p-3 w-full h-32 outline-none"></textarea>
 
           <div className="flex items-start gap-2 text-sm">
             <input type="checkbox" id="smsConsent" className="mt-1" />
