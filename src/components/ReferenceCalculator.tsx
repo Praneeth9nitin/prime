@@ -31,7 +31,7 @@ const ReferenceCalculator: React.FC = () => {
     <>
 
       <p className="text-center text-gray-600 max-w-3xl mx-auto mb-6">
-      The Reference section provides explanations for key terms and components used in mortgage calculations. It helps users understand how their loan, interest, insurance, taxes, and fees contribute to the total monthly payment and overall affordability of a home.
+      Refinancing means replacing your existing mortgage with a new loan, usually to secure a lower interest rate, adjust your loan term, or access your home equity. This can help reduce your monthly payments, lower your interest costs, or allow you to tap into the value of your home.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
