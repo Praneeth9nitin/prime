@@ -16,7 +16,7 @@ function HeroCard() {
 
   return (
     <div className="flex items-center flex-col" >
-      <div className="text-center p-10 text-3xl md:text-4xl text-gray font-bold" >
+      <div className="text-center p-10 text-3xl md:text-4xl text-gray font-semibold" >
         Why Choose Prime <span className="text-card">Mortgage</span>?
       </div>
       <div className="xl:flex m-5 items-center md:justify-center w-4/5 lg:w-full gap-y-5 xl:gap-10 md:grid-cols-2  grid grid-cols-1 text-white">

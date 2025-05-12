@@ -30,7 +30,7 @@ const AffordCalculator: React.FC = () => {
   return (
     <>
       
-      <p className="text-center text-gray-600 max-w-3xl mx-auto mb-6">
+      <p className="text-center text-sm text-gray-600 max-w-3xl mx-auto mb-6">
       Use this section to determine how much home you can afford based on your income, debts, and preferred monthly payment. It helps you estimate your maximum loan amount or home price based on FHA, VA, or conventional standards.
       </p>
 

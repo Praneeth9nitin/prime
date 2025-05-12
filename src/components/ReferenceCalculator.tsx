@@ -30,7 +30,7 @@ const ReferenceCalculator: React.FC = () => {
   return (
     <>
 
-      <p className="text-center text-gray-600 max-w-3xl mx-auto mb-6">
+      <p className="text-center text-sm text-gray-600 max-w-3xl mx-auto mb-6">
       Refinancing means replacing your existing mortgage with a new loan, usually to secure a lower interest rate, adjust your loan term, or access your home equity. This can help reduce your monthly payments, lower your interest costs, or allow you to tap into the value of your home.
       </p>
 

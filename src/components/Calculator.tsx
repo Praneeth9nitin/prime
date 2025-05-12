@@ -12,7 +12,7 @@ function Calculator() {
 
   return (
     <div className="max-w-6xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">MORTGAGE <span className='text-card'>CALCULATOR</span></h1>
+      <h1 className="text-3xl font-semibold text-center mb-6">MORTGAGE <span className='text-card'>CALCULATOR</span></h1>
       <div className="flex justify-center md:gap-6 mb-4 ">
         {tabs.map(tab => (
           <button

@@ -54,7 +54,7 @@ const FHACalculator: React.FC = () => {
 
   return (
     <>
-      <p className="text-center text-gray-600 max-w-3xl mx-auto mb-6">
+      <p className="text-center text-sm text-gray-600 max-w-3xl mx-auto mb-6">
       A mortgage insured by the Federal Housing Administration (FHA), ideal for first-time buyers and those with lower credit scores. FHA loans require lower down payments (as low as 3.5%) and more flexible income and credit qualifications. However, they include Upfront Mortgage Insurance Premium (UFMIP) and Monthly MIP, both of which add to the overall cost.
       </p>
 

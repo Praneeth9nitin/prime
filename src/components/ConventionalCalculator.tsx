@@ -50,7 +50,7 @@ const MortgageCalculator: React.FC = () => {
   return (
     <>
 
-      <p className="text-center text-gray-600 max-w-3xl mx-auto mb-6">
+      <p className="text-center text-sm  text-gray-600 max-w-3xl mx-auto mb-6">
         Conventional mortgages are ideal for buyers with good credit and money to put down.
         They typically require a higher down payment, usually 5%-20% and also have higher income
         and credit score requirements than government loans. Typical fixed-rate loans have a term

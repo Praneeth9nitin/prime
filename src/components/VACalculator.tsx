@@ -33,7 +33,7 @@ const VACalculator: React.FC = () => {
     <>
      
 
-      <p className="text-center text-gray-600 max-w-3xl mx-auto mb-6">
+      <p className="text-center text-sm text-gray-600 max-w-3xl mx-auto mb-6">
       A loan guaranteed by the U.S. Department of Veterans Affairs (VA) for eligible veterans, active-duty service members, and some military spouses. VA loans offer no down payment, no PMI, and competitive interest rates. A VA Funding Fee (which may be financed) is typically required.
       </p>
 
