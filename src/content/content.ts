@@ -139,6 +139,6 @@ const socialMedia = [
     
 ]
 
-const title=["FHA Loans","Conventional Loans","VA Loans"]
+const title=["FHA Loans","Conventional Loans","VA Loans","Refinance","Affordability"]
 
 export {loanOption, about, cards, loanOptions, socialMedia, title}
