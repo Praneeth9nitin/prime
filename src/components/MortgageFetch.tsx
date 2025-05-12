@@ -3,7 +3,7 @@ import arrow from '../assets/arrow.svg'
 
 function MortgageFetch() {
   return (
-    <div className="md:flex w-72 justify-self-center md:w-8/12 flex-wrap text-center md:gap-6 md:justify-center">
+    <div className="md:flex w-72 justify-self-center md:w-8/12 flex-wrap text-center md:gap-10 md:justify-center">
     {title.map((item,index)=>
       <div key={index} className="md:flex flex-col gap-3">
         <div className="text-2xl font-bold col-span-2">{item}</div>
