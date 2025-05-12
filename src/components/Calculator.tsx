@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from 'react';
+import { useState } from 'react';
 import AffordCalculator from './AffordCalculator';
 import ConventionalCalculator from './ConventionalCalculator';
 import FHACalculator from './FHACalculator';
