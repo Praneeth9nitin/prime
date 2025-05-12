@@ -3,9 +3,8 @@ import HeroCard from "../components/HeroCard"
 import HeroComponent from "../components/HeroComponent"
 import HomeLoan from "./HomeLoan"
 import Montage from "./Montage"
-import Calculator from "../components/Calculator"
 import Footer from "../components/Footer"
-
+import Calculator from "../components/Calculator"
 function Hero() {
   return (
     <div>

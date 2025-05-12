@@ -1,6 +1,6 @@
 import HeroComponent from "../components/HeroComponent"
 import Footer from "../components/Footer"
-import Calculator from "../components/Calculator"
+import Calculator from "../components/ConventionalCalculator"
 
 function Mortgagepage() {
   return (
